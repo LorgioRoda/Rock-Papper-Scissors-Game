@@ -1,0 +1,83 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header 
+{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+}
+body
+{
+    background-color: #111111;
+}
+.score-board
+{
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+    width: 200px;
+    padding: 15px 0;
+    color: #f0f0f0;
+    border: 2px solid white;
+}
+.badge
+{
+    background-color: #e2584D;
+    font-size: 1.3rem;
+    padding: 2px 5px;
+}
+#user-label
+{
+    position: absolute;
+    top: 40px;
+    left: -30px;
+}
+#computer-label
+{
+    position: absolute;
+    top: 40px;
+    right: -40px;
+}
+.score-board span
+{
+    margin: 5px;
+    font-size: 4rem;
+}
+.result
+{
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+.choices 
+{
+    text-align: center;
+}
+.choice
+{
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 30px 0px;
+    transition: all 0.3s ease;
+}
+.choice:hover
+{
+    cursor: pointer;
+    background-color: #24272e;
+}
+.choices p
+{
+    font-size: 2rem;
+    color: #f0f0f0;
+    margin: 10px auto;
+}

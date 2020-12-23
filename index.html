@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!--Styles-->
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Papper Scissors Game</title>
+</head>
+    <header>
+        <h1>Rock Papper Scissors</h1>
+    </header>
+<body>
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span><span>-</span><span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>Papper covers Rock: YOU WIN!!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="/images/icons8-hand-rock-80.png" alt="Rock">
+        </div>
+        <div class="choice" id="s">
+            <img src="/images/icons8-hand-scissors-96.png" alt="Scissors">
+        </div>
+        <div class="choice" id="p">
+            <img src="/images/icons8-hand-80.png" alt="Papper">
+        </div>
+        <div>
+            <p id="action-message">Make you move.</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
